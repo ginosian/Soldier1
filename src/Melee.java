@@ -15,7 +15,7 @@ public class Melee extends Soldier {
         Random rand = new Random();
         int highEnd = 100; int lowEnd = 1;
         int random = rand.nextInt(highEnd - lowEnd) + lowEnd;
-        System.out.println("Random number is" + random);
+        System.out.println("Random number is " + random);
         if(random <= this.defenceSkillRatio){
             this.setHealth(this.getHealth()+this.getSkill()-damage);
         } else {
