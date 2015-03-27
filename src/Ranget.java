@@ -15,7 +15,6 @@ public class Ranget extends Soldier {
         Random rand = new Random();
         int highEnd = 100; int lowEnd = 1;
         int random = rand.nextInt(highEnd - lowEnd) + lowEnd;
-        System.out.println("Random number is " + random);
         if(random <= damageSkillRation){
             this.setDamage(this.getDamage()+this.getSkill());
         }

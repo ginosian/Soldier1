@@ -12,8 +12,8 @@
     public static void main (String [] args){
 
 
-        Melee melee = new Melee("Melee", 500,20, 10, 10);
-        Ranget ranget = new Ranget("Ranget", 700, 30, 50, 15);
+        Melee melee = new Melee("Melee", 500,5000, 10, 10);
+        Ranget ranget = new Ranget("Ranget", 700, 6000, 50, 15);
         do{
             if(melee.getHealth() > 0 && ranget.getHealth()>0){
             System.out.println("Melee's life pionts before fight " + melee.getHealth());
